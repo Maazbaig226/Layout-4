@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  font-weight: bold;
+}
+#Wrapper-div {
+  width: 60%;
+  min-height: 100px;
+  margin: auto;
+}
+#Logo-nav-div {
+  width: 100%;
+  min-height: 50px;
+  background-color: lightgray;
+}
+#Logo-div {
+  width: 48%;
+  min-height: 50px;
+  float: left;
+  line-height: 50px;
+  padding-left: 2%;
+}
+#nav-div {
+  width: 50%;
+  min-height: 50px;
+  float: right;
+  line-height: 50px;
+}
+.Clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.row {
+  width: 100%;
+  min-height: 100px;
+  margin-top: 10px;
+}
+.col {
+  width: 20%;
+  min-height: 100px;
+  background-color: lightgray;
+  float: left;
+}
+.col:nth-child(2),
+.col:nth-child(3) {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#boxes {
+  width: 100%;
+  min-height: 200px;
+  margin-top: 10px;
+}
+.Box {
+  width: 30%;
+  min-height: 200px;
+  background-color: lightgray;
+  float: left;
+  text-align: center;
+  line-height: 200px;
+}
+.Box:nth-child(2) {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#Footer-div {
+  width: 100%;
+  min-height: 50px;
+  background-color: lightgray;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 50px;
+}
